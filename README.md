@@ -39,7 +39,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ## 💻 Projeto
 
-Site para uma agência fictícia desenvolvido durante o curso de SASS para fins de pratica e estudo do mesmo.
+Site portfólio desenvolvido durante a formação de front end da alura para fins de pratica de HTML, CSS e JS e uso de uma biblioteca CSS de animação durante a rolagem chamada AOS (Aniamtion On Scroll).
 
 ## 📝 Licença
 
@@ -55,5 +55,5 @@ Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para ma
 ---
 
 Feito com ♥ by Gabriel Gonçalves 🖖 &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp; 
-<a href="#--projeto-agency">Voltar para o Inicio ⬆️ </a>
+<a href="#--desafio-portfólio-alura">Voltar para o Inicio ⬆️ </a>
  
