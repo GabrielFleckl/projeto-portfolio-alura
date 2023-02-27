@@ -102,6 +102,9 @@ header .header-links ul li:hover {
   display: flex;
   gap: 32px;
 }
+.landing .landing-links ul a {
+  color: #464646;
+}
 .landing .landing-links ul li {
   display: flex;
   align-items: center;
@@ -372,8 +375,9 @@ footer a:hover {
     margin-bottom: 32px;
   }
   .landing {
-    width: 70%;
+    width: 90%;
     margin: auto;
+    margin-top: 32px;
     margin-bottom: 32px;
   }
   .landing .landing-main {
@@ -381,12 +385,12 @@ footer a:hover {
     height: auto;
   }
   .landing .landing-main h1 {
-    font-size: 32px;
+    font-size: 52px;
     font-weight: 700;
     margin-bottom: 24px;
   }
   .landing .landing-main p {
-    font-size: 16px;
+    font-size: 22px;
     font-weight: 400;
     margin-bottom: 24px;
   }
