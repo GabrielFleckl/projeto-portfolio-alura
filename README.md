@@ -18,7 +18,7 @@
 
 Aqui você pode conferir o layout. <br>
 
-[👉 Link para visualizar a pagina inteira](https://projeto-agencia-sass.vercel.app/)
+[👉 Link para visualizar a pagina inteira](https://gabrielfleckl.github.io/projeto-portfolio-alura/index.html)
 
 ### Versão Web 🖥️
 
