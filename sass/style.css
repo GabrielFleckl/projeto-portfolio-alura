@@ -586,6 +586,12 @@ footer a:hover {
     cursor: pointer;
     transition: 0.1s;
   }
+  .sobre-mim {
+    padding: 10px;
+  }
+  .sobre-mim .sobre-mim-container {
+    padding: 50px;
+  }
   .bold {
     display: none;
   }
