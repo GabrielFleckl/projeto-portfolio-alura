@@ -40,7 +40,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ## 💻 Projeto
 
-Site portfólio desenvolvido durante a formação de front end da alura para fins de pratica de HTML, CSS e JS e uso de uma biblioteca CSS de animação durante a rolagem chamada AOS (Animation On Scroll).
+Site portfólio desenvolvido durante a formação de front end da alura para fins de pratica de HTML, CSS, JS para validar formulário e uso de uma biblioteca CSS de animação durante a rolagem chamada AOS (Animation On Scroll).
 
 ## 📝 Licença
 
