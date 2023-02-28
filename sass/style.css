@@ -78,6 +78,7 @@ header .header-links ul li:hover {
   gap: 20px;
   align-items: center;
   justify-content: center;
+  margin-top: 92px;
   margin-bottom: 32px;
 }
 .landing .landing-img {
@@ -377,7 +378,7 @@ footer a:hover {
   .landing {
     width: 90%;
     margin: auto;
-    margin-top: 32px;
+    margin-top: 92px;
     margin-bottom: 32px;
   }
   .landing .landing-main {
@@ -439,6 +440,7 @@ footer a:hover {
     align-items: center;
     justify-content: center;
     margin: auto;
+    margin-top: 92px;
     margin-bottom: 32px;
     padding: 0 60px;
   }
@@ -536,6 +538,7 @@ footer a:hover {
     align-items: center;
     justify-content: center;
     margin: auto;
+    margin-top: 92px;
     margin-bottom: 32px;
     padding: 0 60px;
   }
