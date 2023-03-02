@@ -79,6 +79,7 @@ header
     width: 20%
     height: 20%
     border-radius: 50%
+    animation: upAndDown 3s infinite
   .landing-main
     width: 751px
     height: 246px
@@ -154,6 +155,12 @@ header
   justify-content: flex-end
   padding: 16px
   gap: 8px
+  transition: 0.5s
+  cursor: pointer
+  &:hover
+    background-color: #ccc
+    transition: 0.5s
+    transform: scale(1.1 )
 
 .hobbies
   margin-bottom: $space-section
@@ -403,23 +410,23 @@ footer
         margin-bottom: 24px
         text-align: center
       .landing-links
-      ul
-        display: flex
-        align-items: center
-        justify-content: center
-        gap: 32px
-        li
+        ul
           display: flex
           align-items: center
           justify-content: center
-          font-size: 16px
-          font-weight: 500
-          gap: 4px
-          transition: .3s
-          &:hover
-            color: $blue
-            cursor: pointer   
-            transition: .1s
+          gap: 32px
+          li
+            display: flex
+            align-items: center
+            justify-content: center
+            font-size: 16px
+            font-weight: 500
+            gap: 4px
+            transition: .3s
+            &:hover
+              color: $blue
+              cursor: pointer   
+              transition: .1s
   .square-container
     flex-wrap: wrap
     .blue-square
@@ -520,7 +527,15 @@ footer
     display: none
 
 
-      
+@keyframes upAndDown
+  0%
+    transform: translateY(0px)
+
+  50% 
+    transform: translateY(15px)
+
+  100%
+    transform: translateY(0px)
       
 
           

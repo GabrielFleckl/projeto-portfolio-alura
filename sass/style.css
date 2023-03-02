@@ -86,6 +86,7 @@ header .header-links ul li:hover {
   width: 20%;
   height: 20%;
   border-radius: 50%;
+  animation: upAndDown 3s infinite;
 }
 .landing .landing-main {
   width: 751px;
@@ -174,6 +175,13 @@ header .header-links ul li:hover {
   justify-content: flex-end;
   padding: 16px;
   gap: 8px;
+  transition: 0.5s;
+  cursor: pointer;
+}
+.blue-square:hover {
+  background-color: #ccc;
+  transition: 0.5s;
+  transform: scale(1.1);
 }
 
 .hobbies {
@@ -468,13 +476,13 @@ footer a:hover {
     margin-bottom: 24px;
     text-align: center;
   }
-  .landing .landing-main ul {
+  .landing .landing-main .landing-links ul {
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 32px;
   }
-  .landing .landing-main ul li {
+  .landing .landing-main .landing-links ul li {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -483,7 +491,7 @@ footer a:hover {
     gap: 4px;
     transition: 0.3s;
   }
-  .landing .landing-main ul li:hover {
+  .landing .landing-main .landing-links ul li:hover {
     color: #2A7AE4;
     cursor: pointer;
     transition: 0.1s;
@@ -595,5 +603,16 @@ footer a:hover {
   }
   .bold {
     display: none;
+  }
+}
+@keyframes upAndDown {
+  0% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(15px);
+  }
+  100% {
+    transform: translateY(0px);
   }
 }/*# sourceMappingURL=style.css.map */
